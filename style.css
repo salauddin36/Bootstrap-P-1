@@ -1,14 +1,10 @@
-
-  .brand{
-    padding: 0 20px;
-  }
+  
   .navbar-brand{
     font-family: 'Satisfy', cursive; 
     padding: 0 0 0 100px;
+    font-size: 30px !important;
   }
-  .d-flex{
-    margin-left: 200px;
-  }
+  
   /*   sidebar   */
   .side{
     width: 50px;
@@ -39,24 +35,30 @@
     grid-row-gap: 20px;
   }
   /*  */
-  .formbg{
-    background-color: rgba(244, 237, 139, 0.658);
-    padding: 0 0 20px 60px;
-  }
-  .list ul li a,.list ul li{
-    color: aliceblue;
-    background-color: black;
-  }
-  .list{
-    background-color: black;
-  }
-  /*  */
-  .foot{
-    background-color: black;
-  }
-  .foot span{
-    cursor: pointer;
-  }
-  .foot span:hover{
+  a:hover{
     border-bottom: 1px solid white;
+  }
+  .imgprop {
+    height: 600px;
+    object-fit: contain !important;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .imgprop {
+      height: 430px;
+  }
+  }
+  @media screen and (max-width: 320px) {
+
+    .side{
+      display: none ;
+    }
+    .imgprop {
+      height: 180px;
+  }
+  .posters{
+    padding: 15px 30px;
+  }
   }

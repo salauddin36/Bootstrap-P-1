@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="side">
-        <p><i class="fa fa-home icons"></i></p>
+        <p><a href="#"><i class="fa fa-home icons"></i></a></p>
         <p><a href="#poster"><i class="fa-solid fa-image icons"></i></a></p>
         <p><i class="fa-brands fa-youtube icons"></i></p>
         <p><a href="#form"><i class="fa fa-comment icons"></i></a></p>
@@ -50,36 +50,40 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
-        <div class="carousel-inner" id="carousel-inner">
+        <div class="carousel-inner imgprop" id="carousel-inner">
           <div class="carousel-item active "data-bs-interval='1000' >
             <img src="./img/big-hero-6.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-dark">Big Hero 6</h5>
               <p class="text-dark">Hiro, a robotics prodigy, joins hands with Baymax in order to avenge his brother's death. They then team up with Hiro's friends to form a team of high-tech heroes.</p>
             </div>
+
           </div>
-          <div class="carousel-item" data-bs-interval='1000'>
+          <div class="carousel-item " data-bs-interval='1000'>
             <img src="./img/dragons3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-dark">How to Train Your Dragon: The Hidden World</h5>
               <p class="text-dark">Hiccup aims to unite the vikings and the dragons in order to bring peace on the island of Berk. However, he must stop the evil Grimmel and his devious plans to wipe out all dragons.</p>
             </div>
+
           </div>
-          <div class="carousel-item" data-bs-interval='1000'>
+          <div class="carousel-item " data-bs-interval='1000'>
             <img src="./img/lightyear.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Lightyear</h5>
               <p>Legendary space ranger Buzz Lightyear embarks on an intergalactic adventure alongside ambitious recruits Izzy, Mo, Darby, and his robot companion, Sox. As this motley crew tackles their toughest mission yet, they must learn to work together as a team to escape the evil Zurg and his dutiful robot army that are never far behind..</p>
             </div>
+
           </div>
-          <div class="carousel-item" data-bs-interval='1000'>
+          <div class="carousel-item " data-bs-interval='1000'>
             <img src="./img/soul.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Soul</h5>
               <p>SA jazz musician, stuck in a mediocre job, finally gets his big break. However, when a wrong step takes him to the Great Before, he tries to help an infant soul in order to return to reality.</p>
             </div>
+
           </div>
-          <div class="carousel-item" data-bs-interval='1000'>
+          <div class="carousel-item " data-bs-interval='1000'>
             <img src="./img/spiderverse.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Spider-Man: Into the Spider-Verse</h5>
@@ -100,7 +104,7 @@
       <!--  -->
       <div class="posters bg-warning" id="poster">
         <div class="" style="width: 16rem;">
-            <img src="./img/poster (1).png" class="card-img-top" alt="...">
+            <img src="./img/poster (1).jpg" class="card-img-top" alt="...">
         </div>
         <div class="" style="width: 16rem;">
             <img src="./img/poster (2).jpg" class="card-img-top" alt="...">
@@ -133,7 +137,7 @@
       <!--  -->
       <div class="formbg bg-warning" id="form">
         <form class="container py-5 ">
-            <div class="row">
+            <div class="row justify-content-evenly">
               <div class="col-md-5">
                   <h3 class="text-center">Subscribe For More Information</h3>
                     <div class="row mb-3">
@@ -156,6 +160,7 @@
                           <input type="password" class="form-control" id="inputPassword3" placeholder="Enter Your Password">
                         </div>
                       </div>
+                      <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
                 <div class="col-md-5">
                   <h3 class="m-0 p-0 text-center" >FAQ's</h3>
@@ -194,15 +199,12 @@
                       </div>
                 </div>
             </div>
-    
-            <button type="submit" class="btn btn-primary">Sign in</button>
           </form>
       </div>
       <!--  -->
-      <div class="foot">
-      <div class="container list p-3 ">
+      <div class="container-fluid bg-dark text-white p-3">
         <div class="row p-4 justify-content-evenly">
-            <div class="col-md-3">
+            <div class="col-sm-5">
                 <ul>
                     <li><span>authorship information</span></li>
                     <li><span>copyright information</span></li>
@@ -212,17 +214,16 @@
                     <li><span>related documents</span></li>
                 </ul>
             </div>
-            <div class="col-md-3 mt-4  ">
+            <div class="col-sm-5 mt-4  ">
                 <ul>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none"><span>IMDB</span></a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none"><span>Rotten Tomatoes</span></a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none"><span>Amazon Prime</span></a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none"><span>Disney+</span></a></li>
+                    <li class="list-group-item"><a href="#" class="text-decoration-none text-white">IMDB</a></li>
+                    <li class="list-group-item"><a href="#" class="text-decoration-none text-white">Rotten Tomatoes</a></li>
+                    <li class="list-group-item"><a href="#" class="text-decoration-none text-white">Amazon Prime</a></li>
+                    <li class="list-group-item"><a href="#" class="text-decoration-none text-white">Disney+</a></li>
                 </ul>
             </div>
             <p class="text-center text-white m-0 p-0">&copy; - Salauddin Ayubi</p>
         </div>
       </div>
-    </div>
 </body>
 </html>
