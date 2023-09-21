@@ -24,6 +24,7 @@
 
   .icons:hover{
     color: aliceblue;
+    cursor: pointer;
   }
   /*  */
   .posters{
@@ -35,9 +36,6 @@
     grid-row-gap: 20px;
   }
   /*  */
-  a:hover{
-    border-bottom: 1px solid white;
-  }
   .imgprop {
     height: 600px;
     object-fit: contain !important;
